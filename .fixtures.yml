@@ -5,7 +5,8 @@ fixtures:
 # role module layout, include profile base and ntp module
     profile_base: "https://github.com/relybv/dirict-profile_base.git"
     ntp: "https://github.com/puppetlabs/puppetlabs-ntp.git"
-    rspec_monitor: "git://github.com/pgomersbach/test-rspec_monitor.git"
+    profile_mysql: "git://github.com/relybv/dirict-profile_mysql.git"
+    mysql: "https://github.com/puppetlabs/puppetlabs-mysql.git"
 
   symlinks:
     role_db: "#{source_dir}"
