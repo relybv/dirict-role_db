@@ -14,4 +14,5 @@ class role_db
   # include rspec monitor to make rspec acceptance test available to monitor system
 
   include ::profile_mysql
+  include ::profile_nfs
 }
