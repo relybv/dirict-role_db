@@ -3,10 +3,10 @@
 # This script installs puppet 3.x or 4.x and deploy the manifest using puppet apply -e "include role_db"
 #
 # Usage:
-# Ubuntu / Debian: wget https://raw.githubusercontent.com/pgomersbach/role_db/master/files/bootme.sh; bash bootme.sh
+# Ubuntu / Debian: wget https://raw.githubusercontent.com/relybv/role_db/master/files/bootme.sh; bash bootme.sh
 #
-# Red Hat / CentOS: curl https://raw.githubusercontent.com/pgomersbach/role_db/master/skeleton/files/bootme.sh -o bootme.sh; bash bootme.sh
-# Options: add 3 as parameter to install 4.x release
+# Red Hat / CentOS: curl https://raw.githubusercontent.com/relybv/role_db/master/skeleton/files/bootme.sh -o bootme.sh; bash bootme.sh
+# Options: add 3 as parameter to install 3.x release
 
 # default major version, comment to install puppet 3.x
 PUPPETMAJORVERSION=4
