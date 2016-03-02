@@ -62,11 +62,11 @@ fi
 
 # prepare bundle
 echo "Installing gems"
-bundle install --path vendor/bundle
+bundle install --path vendor/bundle --without development system_tests
 # install dependencies from .fixtures
 echo "Preparing modules"
 bundle exec rake spec_prep
 # copy to puppet module location
 cp -a /root/role_db/spec/fixtures/modules/* $MODULEDIR
 echo "Run puppet apply"
-puppet apply -e "include role_db"
+/usr/local/bin/puppet apply -e "include role_db"
