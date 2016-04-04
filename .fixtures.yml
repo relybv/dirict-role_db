@@ -10,6 +10,7 @@ fixtures:
     nfs: "https://github.com/echocat/puppet-nfs.git"
     mysql: "https://github.com/puppetlabs/puppetlabs-mysql.git"
     concat: "git://github.com/puppetlabs/puppetlabs-concat.git"
+    lvm: "https://github.com/puppetlabs/puppetlabs-lvm.git"
 
   symlinks:
     role_db: "#{source_dir}"
