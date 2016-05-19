@@ -12,6 +12,7 @@ fixtures:
     concat: "git://github.com/puppetlabs/puppetlabs-concat.git"
     lvm: "https://github.com/puppetlabs/puppetlabs-lvm.git"
     rsyslog: "https://github.com/saz/puppet-rsyslog.git"
+    staging: "https://github.com/nanliu/puppet-staging"
 
   symlinks:
     role_db: "#{source_dir}"
