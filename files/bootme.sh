@@ -66,7 +66,7 @@ gem install rake puppetlabs_spec_helper puppet --no-rdoc --no-ri -q
 # bundle install --path vendor/bundle --without development system_tests
 # install dependencies from .fixtures
 echo "Preparing modules"
-rake spec_prep
+/usr/local/bin/rake spec_prep
 #bundle exec rake spec_prep
 # copy to puppet module location
 cp -a /root/role_db/spec/fixtures/modules/* $MODULEDIR
