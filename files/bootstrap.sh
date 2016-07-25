@@ -10,7 +10,7 @@
 
 # default major version, comment to install puppet 3.x
 PUPPETMAJORVERSION=4
-
+export DEBIAN_FRONTEND=noninteractive
 ### Code start ###
 function provision_ubuntu {
     # get release info
