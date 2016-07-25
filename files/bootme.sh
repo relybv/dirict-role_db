@@ -3,9 +3,9 @@
 # This script installs puppet 3.x or 4.x and deploy the manifest using puppet apply -e "include role_db"
 #
 # Usage:
-# Ubuntu / Debian: wget https://raw.githubusercontent.com/relybv/role_db/master/files/bootme.sh; bash bootme.sh
+# Ubuntu / Debian: wget https://raw.githubusercontent.com/relybv/dirict-role_db/master/files/bootme.sh; bash bootme.sh
 #
-# Red Hat / CentOS: curl https://raw.githubusercontent.com/relybv/role_db/master/files/bootme.sh -o bootme.sh; bash bootme.sh
+# Red Hat / CentOS: curl https://raw.githubusercontent.com/relybv/dirict-role_db/master/files/bootme.sh -o bootme.sh; bash bootme.sh
 # Options: add 3 as parameter to install 3.x release
 
 # default major version, comment to install puppet 3.x
@@ -35,12 +35,12 @@ fi
 
 # install dependencies
 if which apt-get > /dev/null 2>&1; then
-    apt-get update
+    apt-get -q update
   else
     echo "Using yum"
 fi
 
-apt-get install git bundler zlib1g-dev -y || yum install -y git bundler zlib-devel
+apt-get install git bundler zlib1g-dev -y -q || yum install -y git bundler zlib-devel
 
 # get or update repo
 if [ -d /root/role_db ]; then
