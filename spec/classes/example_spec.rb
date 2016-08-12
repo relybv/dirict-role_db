@@ -21,7 +21,7 @@ describe 'role_db' do
 
           it { is_expected.to contain_mysql__db('nd-app') }
           it { is_expected.to contain_mysql_database('nd-app') }
-          it { is_expected.to contain_mysql_user('nd-app@localhost') }
+          it { is_expected.to contain_mysql_user('nd-app@%') }
 
         end
       end
