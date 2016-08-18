@@ -17,6 +17,7 @@ fixtures:
     motd: "https://github.com/puppetlabs/puppetlabs-motd.git"
     augeasproviders_core: "git://github.com/hercules-team/augeasproviders_core.git"
     augeasproviders_shellvar: "git://github.com/hercules-team/augeasproviders_shellvar.git"
+    gai: "https://github.com/smoeding/puppet-gai.git"
 
   symlinks:
     role_db: "#{source_dir}"
