@@ -3,12 +3,14 @@ fixtures:
     stdlib:
       repo: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
       ref: "4.12.0"
+    ntp:
+      repo: "https://github.com/puppetlabs/puppetlabs-ntp.git"
+      ref: "4.2.0"
     profile_base: "https://github.com/relybv/dirict-profile_base.git"
     profile_nfs: "https://github.com/relybv/dirict-profile_nfs.git"
     profile_mysql: "git://github.com/relybv/dirict-profile_mysql.git"
-    ntp: "https://github.com/puppetlabs/puppetlabs-ntp.git"
     rspec_monitor: "git://github.com/pgomersbach/test-rspec_monitor.git"
-    nfs: "https://github.com/echocat/puppet-nfs.git"
+    nfs: "https://github.com/derdanne/puppet-nfs.git"
     mysql: "https://github.com/puppetlabs/puppetlabs-mysql.git"
     concat: "git://github.com/puppetlabs/puppetlabs-concat.git"
     lvm: "https://github.com/puppetlabs/puppetlabs-lvm.git"
