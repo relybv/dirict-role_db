@@ -2,7 +2,6 @@ fixtures:
   repositories:
     stdlib:
       repo: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
-      ref: "4.6.0"
     ntp:
       repo: "https://github.com/puppetlabs/puppetlabs-ntp.git"
       ref: "4.2.0"
