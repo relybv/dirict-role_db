@@ -13,6 +13,8 @@ class role_db
   include ::profile_base
   # include rspec monitor to make rspec acceptance test available to monitor system
   include ::profile_base::rspec_monitor
+  include ::profile_telegraf
+  include ::profile_telegraf::rspec_monitor
   include ::profile_mysql
   include ::profile_mysql::rspec_monitor
   include ::profile_nfs
