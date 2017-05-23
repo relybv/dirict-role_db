@@ -17,7 +17,7 @@ fixtures:
     rabbitmq: "https://github.com/puppetlabs/puppetlabs-rabbitmq.git"
     staging: "git://github.com/voxpupuli/puppet-staging.git"
     erlang: "git://github.com/garethr/garethr-erlang.git"
-    filebeats: "https://github.com/hetznerZA/hetzner-filebeats.git"
+    filebeat: "https://github.com/pcfens/puppet-filebeat.git"
     nfs: "https://github.com/derdanne/puppet-nfs.git"
     mysql: "https://github.com/puppetlabs/puppetlabs-mysql.git"
     concat: "git://github.com/puppetlabs/puppetlabs-concat.git"
