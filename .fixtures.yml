@@ -28,6 +28,7 @@ fixtures:
     augeasproviders_core: "git://github.com/hercules-team/augeasproviders_core.git"
     augeasproviders_shellvar: "git://github.com/hercules-team/augeasproviders_shellvar.git"
     gai: "https://github.com/smoeding/puppet-gai.git"
+    archive: "https://github.com/voxpupuli/puppet-archive.git"
 
   symlinks:
     role_db: "#{source_dir}"
