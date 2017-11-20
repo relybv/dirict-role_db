@@ -20,6 +20,7 @@ describe 'role_db' do
           it { is_expected.to contain_class('role_db') }
           it { is_expected.to contain_class('profile_base') }
           it { is_expected.to contain_class('profile_mysql') }
+          it { is_expected.to contain_class('profile_redis') }
 
         end
       end

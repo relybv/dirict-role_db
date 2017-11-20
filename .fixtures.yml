@@ -9,6 +9,7 @@ fixtures:
     profile_base: "https://github.com/relybv/dirict-profile_base.git"
     profile_nfs: "https://github.com/relybv/dirict-profile_nfs.git"
     profile_mysql: "git://github.com/relybv/dirict-profile_mysql.git"
+    profile_redis: "https://github.com/relybv/dirict-profile_redis.git"
     rspec_monitor: "git://github.com/pgomersbach/test-rspec_monitor.git"
     telegraf: "https://github.com/datacentred/puppet-telegraf.git"
     profile_telegraf: "https://github.com/relybv/rely-profile_telegraf.git"
