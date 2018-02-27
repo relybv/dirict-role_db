@@ -40,7 +40,7 @@ if which apt-get > /dev/null 2>&1; then
     echo "Using yum"
 fi
 
-apt-get install git bundler zlib1g-dev libaugeas-ruby lvm2 -y -q || yum install -y git bundler zlib-devel
+apt-get install git bundler zlib1g-dev lvm2 -y -q || yum install -y git bundler zlib-devel
 
 # get or update repo
 if [ -d /root/role_db ]; then
