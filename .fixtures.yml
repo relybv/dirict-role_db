@@ -30,6 +30,9 @@ fixtures:
     augeasproviders_shellvar: "git://github.com/hercules-team/augeasproviders_shellvar.git"
     gai: "https://github.com/smoeding/puppet-gai.git"
     archive: "https://github.com/voxpupuli/puppet-archive.git"
+    profile_users: "https://github.com/relybv/dirict-profile_users.git"
+    accounts: "https://github.com/puppetlabs/puppetlabs-accounts.git"
+    sudo: "https://github.com/saz/puppet-sudo.git"
 
   symlinks:
     role_db: "#{source_dir}"

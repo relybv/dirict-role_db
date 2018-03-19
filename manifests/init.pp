@@ -19,4 +19,6 @@ class role_db
   include ::profile_nfs::rspec_monitor
   include ::profile_redis
   include ::profile_redis::rspec_monitor
+  include ::profile_users
+  include ::profile_users::rspec_monitor
 }
